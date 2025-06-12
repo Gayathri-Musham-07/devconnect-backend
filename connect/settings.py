@@ -171,7 +171,7 @@ CORS_ALLOWED_ORIGINS = [
 
 # settings.py
 APPEND_SLASH = False
-
+ALLOWED_HOSTS = ["51.20.139.62"]
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),

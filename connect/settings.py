@@ -162,8 +162,11 @@ REST_FRAMEWORK = {
 }
 
 # CORS configuration
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:5173",  # React frontend
+# ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # React frontend
+    "http://51.20.139.62",  # Your EC2 IP for frontend
 ]
 
 # settings.py

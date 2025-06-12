@@ -168,7 +168,8 @@ REST_FRAMEWORK = {
 #     "http://localhost:5173",  # React frontend
 # ]
 CORS_ALLOWED_ORIGINS = [
-    "http://51.20.139.62",  # Your EC2 IP for frontend
+    "http://51.20.139.62",# Your EC2 IP for frontend
+     "https://devconnectwebsite.vercel.app" 
 ]
 
 # settings.py

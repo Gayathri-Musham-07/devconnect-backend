@@ -168,13 +168,13 @@ REST_FRAMEWORK = {
 #     "http://localhost:5173",  # React frontend
 # ]
 CORS_ALLOWED_ORIGINS = [
-    "http://51.20.139.62",# Your EC2 IP for frontend
-     "https://devconnectwebsite.vercel.app" 
+    # "http://51.20.139.62",# Your EC2 IP for frontend
+    #  "https://devconnectwebsite.vercel.app" 
 ]
 
 # settings.py
 APPEND_SLASH = False
-ALLOWED_HOSTS = ["51.20.139.62"]
+ALLOWED_HOSTS = ["51.20.191.86"]
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
